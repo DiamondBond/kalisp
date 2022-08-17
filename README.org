@@ -1,0 +1,16 @@
+* Kalisp
+
+Rudimentary lisp implementation.
+
+* Depends
+#+begin_src sh
+  sudo apt install build-essential libedit-dev
+#+end_src
+
+* Building
+#+begin_src sh
+  # Unix
+  cc -std=c99 -Wall main.c mpc.c -ledit -lm -o kalisp
+  # DOS
+  cc -std=c99 -Wall main.c mpc.c -o kalisp
+#+end_src
