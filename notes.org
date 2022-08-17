@@ -11,7 +11,7 @@ https://www.buildyourownlisp.com
 Covers basics such as editor, compiler & C concepts.
 
 *Dependencies*:
-We rely on a C compiler (gcc usually) and the readline library (libedit-dev on Ubuntu).
+We rely on a C compiler (cc) and the readline library (libedit-dev on Ubuntu).
 We use mpc (Micro Parser Combinators) as our AST parser which was developed by the author of the guide in order to aid in our lisp implementations effectiveness from the start of designing it, we will replace this with our own AST parser at some point (hopefully).
 
 * Chapter 4
