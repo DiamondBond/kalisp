@@ -1,0 +1,36 @@
+#+STARTUP: inlineimages
+#+TITLE: Kalisp implementation notes
+#+LANGUAGE: en
+#+OPTIONS: toc:2
+
+* Source
+
+https://www.buildyourownlisp.com
+
+* Chapters 1-3
+Covers basics such as editor, compiler & C concepts.
+
+*Dependencies*:
+We rely on a C compiler (gcc usually) and the readline library (libedit-dev on Ubuntu).
+We use mpc (Micro Parser Combinators) as our AST parser which was developed by the author of the guide in order to aid in our lisp implementations effectiveness from the start of designing it, we will replace this with our own AST parser at some point (hopefully).
+
+* Chapter 4
+A basic repl is designed which simply replies back to the user with "x + input".
+
+* Chapter 5
+We grasp an understanding of how the grammar of a programming language is broken down.
+
+*Noam Chomsky*
+
+[[https://en.wikipedia.org/wiki/Chomsky_hierarchy][Chomsky hierarchy]]:
+In formal language theory, computer science and linguistics, the Chomsky hierarchy (also referred to as the Chomsky–Schützenberger hierarchy) is a containment hierarchy of classes of formal grammars.
+
+Natural languages are built up of recursive and repeated substructures.
+
+*Micro Parser Combinators*
+
+*Programming Language Grammars*
+
+*Natural Grammars*
+
+* Chapter 6
