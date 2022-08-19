@@ -4,7 +4,6 @@
 #+OPTIONS: toc:2
 
 * Source
-
 https://www.buildyourownlisp.com
 
 * Chapters 1-3
@@ -21,16 +20,26 @@ A basic repl is designed which simply replies back to the user with "x + input".
 We grasp an understanding of how the grammar of a programming language is broken down.
 
 *Noam Chomsky*
-
 [[https://en.wikipedia.org/wiki/Chomsky_hierarchy][Chomsky hierarchy]]:
 In formal language theory, computer science and linguistics, the Chomsky hierarchy (also referred to as the Chomsky–Schützenberger hierarchy) is a containment hierarchy of classes of formal grammars.
 
 Natural languages are built up of recursive and repeated substructures.
 
 *Micro Parser Combinators*
+mpc is a Parser Combinator library. This means it is a library that allows you to build programs that understand and process particular languages. These are known as parsers. There are many different ways of building parsers, but the cool thing about using a Parser Combinator library is that it lets you build parsers easily, just by specifying the grammar ... sort of.
+
+Many Parser Combinator libraries actually work by letting you write normal code that looks a bit like a grammar, not by actually specifying a grammar directly. In many situations this is fine, but sometimes it can get clunky and complicated. Luckily for us mpc allows us to write normal code that just looks like a grammar, or we can use special notation to write a grammar directly.
 
 *Programming Language Grammars*
+Example:
+We define an adjective, noun and phrase.
+Adjective; "wow"
+Noun; "book"
+Phrase; Adjective followed by a Noun.
+Sentence; zero or more Phrases.
 
 *Natural Grammars*
 
 * Chapter 6
+
+* Chapter 7
