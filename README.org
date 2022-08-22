@@ -1,4 +1,4 @@
-* Kick-ass List Processing
+* Kickass List Processing
 
 Rudimentary lisp implementation.
 
