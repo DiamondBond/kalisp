@@ -173,8 +173,8 @@ int main(int argc, char **argv) {
 	  /* mpc_ast_delete(r.output); */
 
 	  /* Print out the evaluation results */
-	  long result = eval(r.output);
-	  printf("%li\n", result);
+	  lval result = eval(r.output);
+	  lval_println(result);
 	  mpc_ast_delete(r.output);
 	} else {
 	  mpc_err_print(r.error);
