@@ -143,7 +143,7 @@ int main(int argc, char **argv) {
   mpc_parser_t *Number = mpc_new("number");
   mpc_parser_t *Operator = mpc_new("operator");
   mpc_parser_t *Expr = mpc_new("expr");
-  mpc_parser_t *Lisp = mpc_new("lisp");
+  mpc_parser_t *Lispy = mpc_new("lispy");
 
   /* Define parsers language */
   mpca_lang(MPCA_LANG_DEFAULT,
@@ -153,7 +153,7 @@ int main(int argc, char **argv) {
 	expr     : <number> | '(' <operator> <expr>+ ')' ;  \
 	lispy    : /^/ <operator> <expr>+ /$/ ;             \
   ",
-			Number, Operator, Expr, Lisp);
+			Number, Operator, Expr, Lispy);
 
   /* Print info */
   puts("Kalisp Version 0.0.5");
@@ -167,7 +167,7 @@ int main(int argc, char **argv) {
 
 	/* Attempt to parse user input */
 	mpc_result_t r;
-	if (mpc_parse("<stdin>", input, Lisp, &r)) {
+	if (mpc_parse("<stdin>", input, Lispy, &r)) {
 	  /* DEBUG: Print AST */
 	  /* mpc_ast_print(r.output); */
 	  /* mpc_ast_delete(r.output); */
@@ -185,7 +185,7 @@ int main(int argc, char **argv) {
   }
 
   /* Undefine and delete our parsers */
-  mpc_cleanup(4, Number, Operator, Expr, Lisp);
+  mpc_cleanup(4, Number, Operator, Expr, Lispy);
 
   return 0;
 }
