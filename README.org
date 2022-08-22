@@ -1,16 +1,20 @@
-* Kalisp
+* Kick-ass List Processing
 
 Rudimentary lisp implementation.
 
-* Depends
+* Dependencies
+** Bundled
+[[https://github.com/orangeduck/mpc][mpc]] - Micro Parser Combinator
+** External
+gcc compiler & readline library
 #+begin_src sh
   sudo apt install build-essential libedit-dev
 #+end_src
 
-* Building
+* Compiling
 #+begin_src sh
-  # Unix
+  # *nix
   cc -std=c99 -Wall main.c mpc.c -ledit -lm -o kalisp
-  # DOS
+  # dos/nt
   cc -std=c99 -Wall main.c mpc.c -o kalisp
 #+end_src
