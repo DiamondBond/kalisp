@@ -51,7 +51,7 @@ long eval(mpc_ast_t *t) {
 	return atoi(t->contents);
   }
 
-  /* The operator is always teh second child. */
+  /* The operator is always the second child. */
   char *op = t->children[1]->contents;
 
   /* We store the third child in `x` */
