@@ -13,7 +13,7 @@ gcc compiler & readline library
 * Compiling
 #+begin_src sh
   # *nix
-  cc -std=c99 -Wall main.c mpc.c -ledit -lm -o lisp
+  ./build.sh
   # dos/nt
   cc -std=c99 -Wall main.c mpc.c -o lisp
 #+end_src
