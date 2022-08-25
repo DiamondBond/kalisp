@@ -156,7 +156,7 @@ int main(int argc, char **argv) {
 			Number, Operator, Expr, Lisp);
 
   /* Print info */
-  puts("Kalisp Version 0.0.5");
+  puts("Diamond's Lisp Version 0.0.5");
   puts("Ctrl-C to Exit\n");
 
   /* Main loop */
