@@ -1,6 +1,4 @@
-* Kickass List Processing
-
-Rudimentary lisp implementation.
+* Rudimentary lisp implementation.
 
 * Dependencies
 ** Bundled
