@@ -32,3 +32,4 @@ gcc compiler & readline library
 - Tail call optimization
 - Lexical scoping
 - Static typing
+- Replace MPC with a hand rolled parser
