@@ -16,3 +16,19 @@ gcc compiler & readline library
   # dos/nt
   cc -std=c99 -Wall main.c mpc.c -o kalisp
 #+end_src
+
+* Features
+- Read Eval Print
+- Error Handling
+
+* TODO
+- S-exp & Q-exp
+- Variables
+- Functions
+- Conditionals
+- Strings
+- Standard library
+- Garbage collector
+- Tail call optimization
+- Lexical scoping
+- Static typing
