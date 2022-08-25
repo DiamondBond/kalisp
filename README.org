@@ -1,4 +1,5 @@
-* Rudimentary lisp implementation.
+* Rudimentary lisp implementation
+https://www.buildyourownlisp.com/contents
 
 * Dependencies
 ** Bundled
@@ -12,9 +13,9 @@ gcc compiler & readline library
 * Compiling
 #+begin_src sh
   # *nix
-  cc -std=c99 -Wall main.c mpc.c -ledit -lm -o kalisp
+  cc -std=c99 -Wall main.c mpc.c -ledit -lm -o lisp
   # dos/nt
-  cc -std=c99 -Wall main.c mpc.c -o kalisp
+  cc -std=c99 -Wall main.c mpc.c -o lisp
 #+end_src
 
 * Features

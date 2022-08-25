@@ -162,7 +162,7 @@ int main(int argc, char **argv) {
   /* Main loop */
   while (1) {
 
-	char *input = readline(" > ");
+	char *input = readline("> ");
 	add_history(input);
 
 	/* Attempt to parse user input */
