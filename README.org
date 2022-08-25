@@ -2,10 +2,9 @@
 https://www.buildyourownlisp.com/contents
 
 * Dependencies
-** Bundled
-[[https://github.com/orangeduck/mpc][mpc]] - Micro Parser Combinator
-** External
-gcc compiler & readline library
+- gcc
+- readline library (*nix only)
+- [[https://github.com/orangeduck/mpc][mpc]] - Micro Parser Combinator (included in this repo)
 #+begin_src sh
   sudo apt install build-essential libedit-dev
 #+end_src
