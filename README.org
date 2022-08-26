@@ -20,9 +20,11 @@ https://www.buildyourownlisp.com/contents
 * Features
 - Read Eval Print
 - Error Handling
+- S-exp & Q-exp
 
 * TODO
-- S-exp & Q-exp
+- Modulo
+- Float division
 - Variables
 - Functions
 - Conditionals
