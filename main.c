@@ -352,7 +352,7 @@ int main(int argc, char **argv) {
 			Number, Symbol, Sexpr, Qexpr, Expr, Lisp);
 
   /* Print info */
-  puts("Diamond's Lisp Version 0.0.6");
+  puts("Diamond's Lisp Version 0.0.7");
   puts("Ctrl-C to Exit\n");
 
   /* Main loop */
