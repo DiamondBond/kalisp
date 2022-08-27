@@ -1,4 +1,5 @@
 * Rudimentary lisp implementation
+basic implementation of a pseudo-lisp
 
 * Dependencies
 - gcc
