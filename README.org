@@ -1,5 +1,4 @@
 * Rudimentary lisp implementation
-https://www.buildyourownlisp.com/contents
 
 * Dependencies
 - gcc
