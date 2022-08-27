@@ -21,9 +21,9 @@ basic implementation of a pseudo-lisp
 - Read Eval Print
 - Error Handling
 - S-exp
+- Q-exp
 
 * TODO
-- Q-exp
 - Modulo
 - Float division
 - Variables
