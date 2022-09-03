@@ -17,22 +17,21 @@ basic implementation of a pseudo-lisp
   cc -std=c99 -Wall main.c mpc.c -o lisp
 #+end_src
 
+* Usage
+#+begin_src sh
+  ./lisp.o
+  > load "prelude.lisp"
+  > (fib 10)
+  55
+#+end_src
+
 * Features
 - Read Eval Print
 - Error Handling
 - S-exp
 - Q-exp
-
-* TODO
-- Modulo
-- Float division
 - Variables
 - Functions
 - Conditionals
 - Strings
 - Standard library
-- Garbage collector
-- Tail call optimization
-- Lexical scoping
-- Static typing
-- Replace MPC with a hand rolled parser
