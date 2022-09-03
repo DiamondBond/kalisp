@@ -641,7 +641,7 @@ int main(int argc, char **argv) {
 	",
             Number, Symbol, Sexpr, Qexpr, Expr, Lisp);
 
-  puts("Diamond's Lisp v0.8");
+  puts("Welcome to Diamond's Lisp v0.8!");
   puts("Press Ctrl+c to Quit.\n");
 
   lenv *e = lenv_new();
